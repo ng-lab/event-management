@@ -50,7 +50,6 @@ let schema = buildSchema(`
         cancelBooking(bookingId: String): Event
     }
 
-    
     schema {
         query: RootQuery,
         mutation: RootMutation 
